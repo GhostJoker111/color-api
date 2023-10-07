@@ -16,7 +16,7 @@ body {
 
 }
 
-.rgb-palette {
+#rgb-palette {
     min-width: 70px;
     height: auto;
     border: 0.5px solid #D1D5DB;
@@ -37,4 +37,14 @@ body {
 
 .get-color-btn {
     padding: 13px 11px;
+}
+
+.hex-palette {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 500px 50px;
+}
+
+.t-center {
+    text-align: center;
 }
