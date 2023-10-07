@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#color-settings {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.color-toolbar {
+    padding: 25px;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.rgb-palette {
+    min-width: 70px;
+    height: auto;
+    border: 0.5px solid #D1D5DB;
+}
+
+#scheme-mode {
+    min-width: 60%;
+    padding: 9px 13px;
+    cursor: pointer;
+}
+
+#scheme-mode,
+.get-color-btn {
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    background: white;
+}
+
+.get-color-btn {
+    padding: 13px 11px;
+}
