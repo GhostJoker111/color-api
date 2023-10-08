@@ -1,3 +1,3 @@
 # color-api
 
-Short app for providing colors from Color API
+Short app for providing color's scheme from Color API
